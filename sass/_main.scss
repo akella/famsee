@@ -119,3 +119,54 @@ body{
     	opacity: 0;
     }
 }
+
+
+.withanim{
+	.side{
+		overflow: hidden;
+		width: 4px;
+		@include transition(all .2s ease-in-out);
+	}
+	
+	.content{
+		left: 100%;
+		@include transition(all .2s ease-in-out);
+		left: 8px;
+	}
+	&.is-menu{
+		.side{
+			width: 103px;
+		}
+		.content{
+			left: 103px;
+		}
+	}
+	.album{
+		.album__right{
+			float: right;
+		}
+		.album__left{
+			overflow: hidden;
+			height: 408px;
+			background: purple;
+			background: url(../img/left.png) no-repeat 0 0;
+			background-size: 100% auto;
+			position: relative;
+			.album__text{
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				z-index: 20;
+				background: url(../img/text.png) no-repeat 0 0;
+				width: 531px;
+				height: 140px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
