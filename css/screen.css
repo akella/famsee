@@ -32,7 +32,7 @@ body { width: 1024px; height: 768px; background: #000; position: relative; }
 .peoplelist .searchresult { height: 503px; overflow: hidden; -webkit-animation: hideres 10s linear infinite; -moz-animation: hideres 10s linear infinite; -ms-animation: hideres 10s linear infinite; -o-animation: hideres 10s linear infinite; animation: hideres 10s linear infinite; }
 .peoplelist .alan { position: absolute; left: 0; top: 0; width: 0; overflow: hidden; -webkit-animation: showalan 10s linear infinite; -moz-animation: showalan 10s linear infinite; -ms-animation: showalan 10s linear infinite; -o-animation: showalan 10s linear infinite; animation: showalan 10s linear infinite; }
 
-.topper { position: fixed; top: 0; right: 0; height: 48px; z-index: 200; background: rgba(0, 0, 0, 0.7); }
+.topper { position: fixed; top: 0; right: 0; height: 48px; z-index: 200; left: 103px; background: rgba(0, 0, 0, 0.7); }
 
 .album { display: block; margin-bottom: 5px; }
 
